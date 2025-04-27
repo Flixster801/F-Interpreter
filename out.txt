@@ -1,0 +1,58 @@
+DECLARATION
+↓
+BEGIN_BLOCK
+↓
+DECLARATION
+↓
+DECLARATION
+↓
+DECLARATION
+↓
+WHILE → n → 1 → < → n → 9 → > → ||
+                                ↓
+                                BEGIN_BLOCK
+                                ↓
+                                PRINT → " → Enter a single digit number:  → "
+                                                                            ↓
+                                                                            ASSIGNMENT → n → GETCHAR → ' → 0 → ' → - → =
+                                                                                                                       ↓
+                                                                                                                       END_BLOCK
+                                                                                                                       ↓
+                                                                                                                       FOR1 → i → 1 → =
+                                                                                                                                      ↓
+                                                                                                                                      FOR2 → i → n → <=
+                                                                                                                                                     ↓
+                                                                                                                                                     FOR3 → i → i → 1 → + → =
+                                                                                                                                                                            ↓
+                                                                                                                                                                            BEGIN_BLOCK
+                                                                                                                                                                            ↓
+                                                                                                                                                                            FOR1 → j → i → =
+                                                                                                                                                                                           ↓
+                                                                                                                                                                                           FOR2 → j → n → <
+                                                                                                                                                                                                          ↓
+                                                                                                                                                                                                          FOR3 → j → j → 1 → + → =
+                                                                                                                                                                                                                                 ↓
+                                                                                                                                                                                                                                 BEGIN_BLOCK
+                                                                                                                                                                                                                                 ↓
+                                                                                                                                                                                                                                 PRINT → " →    → "
+                                                                                                                                                                                                                                                  ↓
+                                                                                                                                                                                                                                                  END_BLOCK
+                                                                                                                                                                                                                                                  ↓
+                                                                                                                                                                                                                                                  FOR1 → j → 0 → =
+                                                                                                                                                                                                                                                                 ↓
+                                                                                                                                                                                                                                                                 FOR2 → j → i → 2 → * → 1 → - → <
+                                                                                                                                                                                                                                                                                                ↓
+                                                                                                                                                                                                                                                                                                FOR3 → j → j → 1 → + → =
+                                                                                                                                                                                                                                                                                                                       ↓
+                                                                                                                                                                                                                                                                                                                       BEGIN_BLOCK
+                                                                                                                                                                                                                                                                                                                       ↓
+                                                                                                                                                                                                                                                                                                                       PRINT → " → �� → "
+                                                                                                                                                                                                                                                                                                                                        ↓
+                                                                                                                                                                                                                                                                                                                                        END_BLOCK
+                                                                                                                                                                                                                                                                                                                                        ↓
+                                                                                                                                                                                                                                                                                                                                        PRINT → " → 
+ → "
+                                                                                                                                                                                                                                                                                                                                                        ↓
+                                                                                                                                                                                                                                                                                                                                                        END_BLOCK
+                                                                                                                                                                                                                                                                                                                                                        ↓
+                                                                                                                                                                                                                                                                                                                                                        END_BLOCK
