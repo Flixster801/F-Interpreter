@@ -1,5 +1,5 @@
 # F Interpreter
-An interpreter for the F language, a language I made up. The definition of the language is in ```bnf.txt```. It is closely related to the C language.
+An interpreter for the F language, a language I created. The definition of the language is in ```bnf.txt```. It is closely related to the C language.
 
 ## Features
 
