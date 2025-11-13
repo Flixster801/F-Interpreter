@@ -42,8 +42,6 @@ int main(int argc, char* argv[]) {
         return 2;
     }
 
-    // std::cout << ss.str() << std::endl;
-
     // Tokenize
     Tokenizer tokenizer(ss);
 
@@ -57,12 +55,6 @@ int main(int argc, char* argv[]) {
         token = tokenizer.get_token();
     }
 
-    // token = head;
-    // while (token) {
-    //     std::cout << token->value() << " " << token->type() << " " << token->line_number() << " " << token->col_number() << std::endl;
-    //     token = token->next();
-    // }
-
     RecursiveDescentParser* rdp = new RecursiveDescentParser();
     
     if (!rdp->check_errors(head, ss)) {
@@ -75,15 +67,11 @@ int main(int argc, char* argv[]) {
         return 4;
     }
 
-    // symbol_table->print();
-
     AbstractSyntaxTree* ast = new AbstractSyntaxTree(ss, symbol_table);
 
     if (!ast->create(head)) {
         return 5;
     }
-
-    ast->print();
 
     Interpreter* interpreter = new Interpreter(ast, symbol_table);
 
