@@ -20,11 +20,8 @@ abstract_syntax_tree.o:
 
 interpreter.o:
 	g++ -c interpreter.cpp
-
+	
 clean:
-	rm interpreter.o
-
-clean-all:
 	rm main.o
 	rm tokenizer.o
 	rm recursive_descent_parser.o
